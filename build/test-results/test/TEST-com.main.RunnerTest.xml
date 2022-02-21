@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.main.RunnerTest" tests="1" skipped="0" failures="1" errors="0" timestamp="2022-02-21T14:40:38" hostname="TULIMOV" time="17.699">
+  <properties/>
+  <testcase name="check" classname="com.main.RunnerTest" time="17.699">
+    <failure message="junit.framework.AssertionFailedError: Значения не совпадают: 93.3382 - c сайта, -806.4456 - с byBit expected:&lt;-806.4456&gt; but was:&lt;93.3382&gt;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Значения не совпадают: 93.3382 - c сайта, -806.4456 - с byBit expected:&lt;-806.4456&gt; but was:&lt;93.3382&gt;
+	at junit.framework.Assert.fail(Assert.java:57)
+	at junit.framework.Assert.failNotEquals(Assert.java:329)
+	at junit.framework.Assert.assertEquals(Assert.java:78)
+	at com.main.RunnerTest.check(RunnerTest.kt:73)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.runTestClass(JUnitTestClassExecutor.java:110)
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.execute(JUnitTestClassExecutor.java:58)
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.execute(JUnitTestClassExecutor.java:38)
+	at org.gradle.api.internal.tasks.testing.junit.AbstractJUnitTestClassProcessor.processTestClass(AbstractJUnitTestClassProcessor.java:62)
+	at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.processTestClass(SuiteTestClassProcessor.java:51)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:36)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.internal.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:33)
+	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:94)
+	at com.sun.proxy.$Proxy2.processTestClass(Unknown Source)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.processTestClass(TestWorker.java:121)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:36)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:182)
+	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:164)
+	at org.gradle.internal.remote.internal.hub.MessageHub$Handler.run(MessageHub.java:414)
+	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:64)
+	at org.gradle.internal.concurrent.ManagedExecutorImpl$1.run(ManagedExecutorImpl.java:48)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:56)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+</failure>
+  </testcase>
+  <system-out><![CDATA[Проверка версий драйвера
+Версии хрома и дравйера совпадают
+1645454441
+[{"volume":630.344,"symbol":"BTCUSDT","period":"15","high":39228,"low":39127.5,"id":41830818,"close":39189,"startAt":1645423200,"open":39201},{"volume":506.813,"symbol":"BTCUSDT","period":"15","high":39189.5,"low":39125,"id":41834280,"close":39184,"startAt":1645424100,"open":39189},{"volume":223.67,"symbol":"BTCUSDT","period":"15","high":39224.5,"low":39181,"id":41837681,"close":39181.5,"startAt":1645425000,"open":39184},{"volume":178.258,"symbol":"BTCUSDT","period":"15","high":39199,"low":39163,"id":41840191,"close":39183.5,"startAt":1645425900,"open":39181.5},{"volume":703.249,"symbol":"BTCUSDT","period":"15","high":39184.5,"low":39050.5,"id":41843138,"close":39090,"startAt":1645426800,"open":39183.5},{"volume":524.787,"symbol":"BTCUSDT","period":"15","high":39206.5,"low":39038.5,"id":41846258,"close":39206.5,"startAt":1645427700,"open":39090},{"volume":334.551,"symbol":"BTCUSDT","period":"15","high":39221.5,"low":39109.5,"id":41849183,"close":39165,"startAt":1645428600,"open":39206.5},{"volume":605.051,"symbol":"BTCUSDT","period":"15","high":39279,"low":39164.5,"id":41852182,"close":39279,"startAt":1645429500,"open":39165},{"volume":530.724,"symbol":"BTCUSDT","period":"15","high":39336.5,"low":39241,"id":41855903,"close":39274,"startAt":1645430400,"open":39279},{"volume":388.988,"symbol":"BTCUSDT","period":"15","high":39295,"low":39164.5,"id":41858482,"close":39176,"startAt":1645431300,"open":39274},{"volume":737.143,"symbol":"BTCUSDT","period":"15","high":39216.5,"low":39050,"id":41861861,"close":39064,"startAt":1645432200,"open":39176},{"volume":572.731,"symbol":"BTCUSDT","period":"15","high":39123,"low":39005,"id":41864399,"close":39036,"startAt":1645433100,"open":39064},{"volume":2100.066,"symbol":"BTCUSDT","period":"15","high":39049,"low":38860.5,"id":41867353,"close":38969,"startAt":1645434000,"open":39036},{"volume":844.164,"symbol":"BTCUSDT","period":"15","high":39087,"low":38919.5,"id":41870577,"close":39012,"startAt":1645434900,"open":38969},{"volume":365.311,"symbol":"BTCUSDT","period":"15","high":39041,"low":38951.5,"id":41873493,"close":39012,"startAt":1645435800,"open":39012},{"volume":510.399,"symbol":"BTCUSDT","period":"15","high":39025.5,"low":38850,"id":41876507,"close":38888,"startAt":1645436700,"open":39012},{"volume":471.453,"symbol":"BTCUSDT","period":"15","high":38940,"low":38850,"id":41879458,"close":38866.5,"startAt":1645437600,"open":38888},{"volume":2609.868,"symbol":"BTCUSDT","period":"15","high":38871.5,"low":38500,"id":41882678,"close":38533.5,"startAt":1645438500,"open":38866.5},{"volume":3231.489,"symbol":"BTCUSDT","period":"15","high":38560.5,"low":38193.5,"id":41885580,"close":38324.5,"startAt":1645439400,"open":38533.5},{"volume":1320.643,"symbol":"BTCUSDT","period":"15","high":38365.5,"low":38237,"id":41888610,"close":38277.5,"startAt":1645440300,"open":38324.5},{"volume":1434.022,"symbol":"BTCUSDT","period":"15","high":38405.5,"low":38244.5,"id":41891528,"close":38275,"startAt":1645441200,"open":38277.5},{"volume":1049.254,"symbol":"BTCUSDT","period":"15","high":38344,"low":38200,"id":41894654,"close":38267.5,"startAt":1645442100,"open":38275},{"volume":6608.31,"symbol":"BTCUSDT","period":"15","high":38279.5,"low":37400,"id":41897570,"close":37512,"startAt":1645443000,"open":38267.5},{"volume":3461.18,"symbol":"BTCUSDT","period":"15","high":37584.5,"low":37257,"id":41900585,"close":37549.5,"startAt":1645443900,"open":37512},{"volume":2783.364,"symbol":"BTCUSDT","period":"15","high":37742.5,"low":37437.5,"id":41903559,"close":37570,"startAt":1645444800,"open":37549.5},{"volume":3094.708,"symbol":"BTCUSDT","period":"15","high":37652,"low":37361,"id":41907243,"close":37587,"startAt":1645445700,"open":37570},{"volume":1401.53,"symbol":"BTCUSDT","period":"15","high":37638.5,"low":37477.5,"id":41910139,"close":37528.5,"startAt":1645446600,"open":37587},{"volume":1561.322,"symbol":"BTCUSDT","period":"15","high":37576.5,"low":37380,"id":41913162,"close":37503,"startAt":1645447500,"open":37528.5},{"volume":3124.155,"symbol":"BTCUSDT","period":"15","high":37631.5,"low":37162,"id":41916686,"close":37622.5,"startAt":1645448400,"open":37503},{"volume":2260.375,"symbol":"BTCUSDT","period":"15","high":37653,"low":37300,"id":41919188,"close":37381.5,"startAt":1645449300,"open":37622.5},{"volume":1155.645,"symbol":"BTCUSDT","period":"15","high":37529,"low":37320,"id":41922613,"close":37463.5,"startAt":1645450200,"open":37381.5},{"volume":1401.94,"symbol":"BTCUSDT","period":"15","high":37614.5,"low":37376,"id":41925129,"close":37528.5,"startAt":1645451100,"open":37463.5},{"volume":2017.033,"symbol":"BTCUSDT","period":"15","high":37790,"low":37461.5,"id":41928097,"close":37699,"startAt":1645452000,"open":37528.5},{"volume":9835.992,"symbol":"BTCUSDT","period":"15","high":38883,"low":37687,"id":41931329,"close":38591,"startAt":1645452900,"open":37699},{"volume":2791.45,"symbol":"BTCUSDT","period":"15","high":38639.5,"low":38410.5,"id":41934223,"close":38580,"startAt":1645453800,"open":38591}]
+{"volume":2791.45,"symbol":"BTCUSDT","period":"15","high":38639.5,"low":38410.5,"id":41934223,"close":38580,"startAt":1645453800,"open":38591}
+{"volume":9835.992,"symbol":"BTCUSDT","period":"15","high":38883,"low":37687,"id":41931329,"close":38591,"startAt":1645452900,"open":37699}
+{"volume":2017.033,"symbol":"BTCUSDT","period":"15","high":37790,"low":37461.5,"id":41928097,"close":37699,"startAt":1645452000,"open":37528.5}
+{"volume":1401.94,"symbol":"BTCUSDT","period":"15","high":37614.5,"low":37376,"id":41925129,"close":37528.5,"startAt":1645451100,"open":37463.5}
+{"volume":1155.645,"symbol":"BTCUSDT","period":"15","high":37529,"low":37320,"id":41922613,"close":37463.5,"startAt":1645450200,"open":37381.5}
+{"volume":2260.375,"symbol":"BTCUSDT","period":"15","high":37653,"low":37300,"id":41919188,"close":37381.5,"startAt":1645449300,"open":37622.5}
+{"volume":3124.155,"symbol":"BTCUSDT","period":"15","high":37631.5,"low":37162,"id":41916686,"close":37622.5,"startAt":1645448400,"open":37503}
+{"volume":1561.322,"symbol":"BTCUSDT","period":"15","high":37576.5,"low":37380,"id":41913162,"close":37503,"startAt":1645447500,"open":37528.5}
+{"volume":1401.53,"symbol":"BTCUSDT","period":"15","high":37638.5,"low":37477.5,"id":41910139,"close":37528.5,"startAt":1645446600,"open":37587}
+{"volume":3094.708,"symbol":"BTCUSDT","period":"15","high":37652,"low":37361,"id":41907243,"close":37587,"startAt":1645445700,"open":37570}
+{"volume":2783.364,"symbol":"BTCUSDT","period":"15","high":37742.5,"low":37437.5,"id":41903559,"close":37570,"startAt":1645444800,"open":37549.5}
+{"volume":3461.18,"symbol":"BTCUSDT","period":"15","high":37584.5,"low":37257,"id":41900585,"close":37549.5,"startAt":1645443900,"open":37512}
+{"volume":6608.31,"symbol":"BTCUSDT","period":"15","high":38279.5,"low":37400,"id":41897570,"close":37512,"startAt":1645443000,"open":38267.5}
+{"volume":1049.254,"symbol":"BTCUSDT","period":"15","high":38344,"low":38200,"id":41894654,"close":38267.5,"startAt":1645442100,"open":38275}
+{"volume":1434.022,"symbol":"BTCUSDT","period":"15","high":38405.5,"low":38244.5,"id":41891528,"close":38275,"startAt":1645441200,"open":38277.5}
+{"volume":1320.643,"symbol":"BTCUSDT","period":"15","high":38365.5,"low":38237,"id":41888610,"close":38277.5,"startAt":1645440300,"open":38324.5}
+{"volume":3231.489,"symbol":"BTCUSDT","period":"15","high":38560.5,"low":38193.5,"id":41885580,"close":38324.5,"startAt":1645439400,"open":38533.5}
+{"volume":2609.868,"symbol":"BTCUSDT","period":"15","high":38871.5,"low":38500,"id":41882678,"close":38533.5,"startAt":1645438500,"open":38866.5}
+{"volume":471.453,"symbol":"BTCUSDT","period":"15","high":38940,"low":38850,"id":41879458,"close":38866.5,"startAt":1645437600,"open":38888}
+{"volume":510.399,"symbol":"BTCUSDT","period":"15","high":39025.5,"low":38850,"id":41876507,"close":38888,"startAt":1645436700,"open":39012}
+{"volume":365.311,"symbol":"BTCUSDT","period":"15","high":39041,"low":38951.5,"id":41873493,"close":39012,"startAt":1645435800,"open":39012}
+{"volume":844.164,"symbol":"BTCUSDT","period":"15","high":39087,"low":38919.5,"id":41870577,"close":39012,"startAt":1645434900,"open":38969}
+{"volume":2100.066,"symbol":"BTCUSDT","period":"15","high":39049,"low":38860.5,"id":41867353,"close":38969,"startAt":1645434000,"open":39036}
+{"volume":572.731,"symbol":"BTCUSDT","period":"15","high":39123,"low":39005,"id":41864399,"close":39036,"startAt":1645433100,"open":39064}
+{"volume":737.143,"symbol":"BTCUSDT","period":"15","high":39216.5,"low":39050,"id":41861861,"close":39064,"startAt":1645432200,"open":39176}
+{"volume":388.988,"symbol":"BTCUSDT","period":"15","high":39295,"low":39164.5,"id":41858482,"close":39176,"startAt":1645431300,"open":39274}
+{"volume":530.724,"symbol":"BTCUSDT","period":"15","high":39336.5,"low":39241,"id":41855903,"close":39274,"startAt":1645430400,"open":39279}
+{"volume":605.051,"symbol":"BTCUSDT","period":"15","high":39279,"low":39164.5,"id":41852182,"close":39279,"startAt":1645429500,"open":39165}
+{"volume":334.551,"symbol":"BTCUSDT","period":"15","high":39221.5,"low":39109.5,"id":41849183,"close":39165,"startAt":1645428600,"open":39206.5}
+{"volume":524.787,"symbol":"BTCUSDT","period":"15","high":39206.5,"low":39038.5,"id":41846258,"close":39206.5,"startAt":1645427700,"open":39090}
+{"volume":703.249,"symbol":"BTCUSDT","period":"15","high":39184.5,"low":39050.5,"id":41843138,"close":39090,"startAt":1645426800,"open":39183.5}
+{"volume":178.258,"symbol":"BTCUSDT","period":"15","high":39199,"low":39163,"id":41840191,"close":39183.5,"startAt":1645425900,"open":39181.5}
+{"volume":223.67,"symbol":"BTCUSDT","period":"15","high":39224.5,"low":39181,"id":41837681,"close":39181.5,"startAt":1645425000,"open":39184}
+{"volume":506.813,"symbol":"BTCUSDT","period":"15","high":39189.5,"low":39125,"id":41834280,"close":39184,"startAt":1645424100,"open":39189}
+{"volume":630.344,"symbol":"BTCUSDT","period":"15","high":39228,"low":39127.5,"id":41830818,"close":39189,"startAt":1645423200,"open":39201}
+37661.4
+38467.845588235294
+-806.4455882352922
+]]></system-out>
+  <system-err><![CDATA[Starting ChromeDriver 98.0.4758.102 (273bf7ac8c909cde36982d27f66f3c70846a3718-refs/branch-heads/4758@{#1151}) on port 44495
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+февр. 21, 2022 5:40:40 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+</testsuite>
