@@ -55,7 +55,7 @@ class RunnerTest {
 
         val users = File("users_id.txt") // Список ID пользователей с телеги
         val logStat = File(LocalDate.now().toString() + " logStat.txt") // Файл с логами
-        if (or.toDouble() != fr + 1) {
+        if (or.toDouble() != fr) {
             logStat.appendText(
                 (LocalDateTime.now()
                     .toString() + " Значения не совпадают: $fr - c сайта, $or - с byBit ===========================\n")
