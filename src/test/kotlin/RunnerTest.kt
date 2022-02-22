@@ -63,7 +63,7 @@ class RunnerTest {
 
 
                 for (i in users.readText().split(",")) { // Отправка сообщений боту по ID пользователя
-                    getAll().sendMessage("Значения не совпадают: $fr - c сайта, $or - с byBit :x:", i)
+                    getAll().sendMessage("Значения не совпадают:\n$fr - c сайта\n$or - с byBit :x:", i)
                 }
 
 
