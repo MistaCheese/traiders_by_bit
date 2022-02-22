@@ -63,17 +63,16 @@ class RunnerTest {
                     .toString() + " Значения не совпадают: $fr - c сайта, $or - с byBit ===========================\n")
             )
 
-            if (file.readText() == "0") {
+
                 for (i in users.readText().split(",")) { // Отправка сообщений боту по ID пользователя
                     getAll().sendMessage("Значения не совпадают: $fr - c сайта, $or - с byBit :x:", i)
                 }
-                file.writeText("1")
-            }
+
 
             assertEquals("Значения не совпадают: $fr - c сайта, $or - с byBit", or, fr)
 
         } else {
-            file.writeText("0")
+
             println("Значения совпадают: $fr - c сайта, $or - с byBit, все ОК")
             logStat.appendText(
                 (LocalDateTime.now().toString() + " Значения совпадают: $fr - c сайта, $or - с byBit, все ОК\n")
