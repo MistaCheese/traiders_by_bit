@@ -49,7 +49,7 @@ class RunnerTest {
             driver.findElement(By.xpath("/html[1]/body[1]/div[1]/div[1]/div[1]/div[2]/div[2]/section[1]/div[2]/div[1]/div[1]/div[2]/div[2]/div[3]"))
 
 
-        val fr = (exm.getAttribute("textContent").toString()).replace("\\s".toRegex(), "").toDouble()
+        val fr = (exm.getAttribute("textContent").toString()).replace("\\s", "").toDouble()
 
         val or = String.format("%.4f", getAll().get()).replace(",", ".") // Формат с 4мя знаками после запятой
 
