@@ -53,7 +53,7 @@ class RunnerTest {
             .toString())
             .filter { !it.isWhitespace() }
             .trim()
-
+            .replace(",", ".")
 
 
         val or = String.format("%.4f", getAll().get()).replace(",", ".") // Формат с 4мя знаками после запятой
