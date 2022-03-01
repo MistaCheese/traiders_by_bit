@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.main.RunnerTest" tests="1" skipped="0" failures="1" errors="0" timestamp="2022-02-21T14:40:38" hostname="TULIMOV" time="17.699">
+<testsuite name="com.main.RunnerTest" tests="1" skipped="0" failures="1" errors="0" timestamp="2022-03-01T07:48:12" hostname="TULIMOV" time="17.623">
   <properties/>
-  <testcase name="check" classname="com.main.RunnerTest" time="17.699">
-    <failure message="junit.framework.AssertionFailedError: Значения не совпадают: 93.3382 - c сайта, -806.4456 - с byBit expected:&lt;-806.4456&gt; but was:&lt;93.3382&gt;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Значения не совпадают: 93.3382 - c сайта, -806.4456 - с byBit expected:&lt;-806.4456&gt; but was:&lt;93.3382&gt;
-	at junit.framework.Assert.fail(Assert.java:57)
-	at junit.framework.Assert.failNotEquals(Assert.java:329)
-	at junit.framework.Assert.assertEquals(Assert.java:78)
-	at com.main.RunnerTest.check(RunnerTest.kt:73)
+  <testcase name="check" classname="com.main.RunnerTest" time="17.623">
+    <failure message="java.lang.NumberFormatException: For input string: &quot;2065,7529&quot;" type="java.lang.NumberFormatException">java.lang.NumberFormatException: For input string: &quot;2065,7529&quot;
+	at java.base/jdk.internal.math.FloatingDecimal.readJavaFormatString(FloatingDecimal.java:2054)
+	at java.base/jdk.internal.math.FloatingDecimal.parseDouble(FloatingDecimal.java:110)
+	at java.base/java.lang.Double.parseDouble(Double.java:549)
+	at com.main.RunnerTest.check(RunnerTest.kt:63)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -63,52 +63,53 @@
   </testcase>
   <system-out><![CDATA[Проверка версий драйвера
 Версии хрома и дравйера совпадают
-1645454441
-[{"volume":630.344,"symbol":"BTCUSDT","period":"15","high":39228,"low":39127.5,"id":41830818,"close":39189,"startAt":1645423200,"open":39201},{"volume":506.813,"symbol":"BTCUSDT","period":"15","high":39189.5,"low":39125,"id":41834280,"close":39184,"startAt":1645424100,"open":39189},{"volume":223.67,"symbol":"BTCUSDT","period":"15","high":39224.5,"low":39181,"id":41837681,"close":39181.5,"startAt":1645425000,"open":39184},{"volume":178.258,"symbol":"BTCUSDT","period":"15","high":39199,"low":39163,"id":41840191,"close":39183.5,"startAt":1645425900,"open":39181.5},{"volume":703.249,"symbol":"BTCUSDT","period":"15","high":39184.5,"low":39050.5,"id":41843138,"close":39090,"startAt":1645426800,"open":39183.5},{"volume":524.787,"symbol":"BTCUSDT","period":"15","high":39206.5,"low":39038.5,"id":41846258,"close":39206.5,"startAt":1645427700,"open":39090},{"volume":334.551,"symbol":"BTCUSDT","period":"15","high":39221.5,"low":39109.5,"id":41849183,"close":39165,"startAt":1645428600,"open":39206.5},{"volume":605.051,"symbol":"BTCUSDT","period":"15","high":39279,"low":39164.5,"id":41852182,"close":39279,"startAt":1645429500,"open":39165},{"volume":530.724,"symbol":"BTCUSDT","period":"15","high":39336.5,"low":39241,"id":41855903,"close":39274,"startAt":1645430400,"open":39279},{"volume":388.988,"symbol":"BTCUSDT","period":"15","high":39295,"low":39164.5,"id":41858482,"close":39176,"startAt":1645431300,"open":39274},{"volume":737.143,"symbol":"BTCUSDT","period":"15","high":39216.5,"low":39050,"id":41861861,"close":39064,"startAt":1645432200,"open":39176},{"volume":572.731,"symbol":"BTCUSDT","period":"15","high":39123,"low":39005,"id":41864399,"close":39036,"startAt":1645433100,"open":39064},{"volume":2100.066,"symbol":"BTCUSDT","period":"15","high":39049,"low":38860.5,"id":41867353,"close":38969,"startAt":1645434000,"open":39036},{"volume":844.164,"symbol":"BTCUSDT","period":"15","high":39087,"low":38919.5,"id":41870577,"close":39012,"startAt":1645434900,"open":38969},{"volume":365.311,"symbol":"BTCUSDT","period":"15","high":39041,"low":38951.5,"id":41873493,"close":39012,"startAt":1645435800,"open":39012},{"volume":510.399,"symbol":"BTCUSDT","period":"15","high":39025.5,"low":38850,"id":41876507,"close":38888,"startAt":1645436700,"open":39012},{"volume":471.453,"symbol":"BTCUSDT","period":"15","high":38940,"low":38850,"id":41879458,"close":38866.5,"startAt":1645437600,"open":38888},{"volume":2609.868,"symbol":"BTCUSDT","period":"15","high":38871.5,"low":38500,"id":41882678,"close":38533.5,"startAt":1645438500,"open":38866.5},{"volume":3231.489,"symbol":"BTCUSDT","period":"15","high":38560.5,"low":38193.5,"id":41885580,"close":38324.5,"startAt":1645439400,"open":38533.5},{"volume":1320.643,"symbol":"BTCUSDT","period":"15","high":38365.5,"low":38237,"id":41888610,"close":38277.5,"startAt":1645440300,"open":38324.5},{"volume":1434.022,"symbol":"BTCUSDT","period":"15","high":38405.5,"low":38244.5,"id":41891528,"close":38275,"startAt":1645441200,"open":38277.5},{"volume":1049.254,"symbol":"BTCUSDT","period":"15","high":38344,"low":38200,"id":41894654,"close":38267.5,"startAt":1645442100,"open":38275},{"volume":6608.31,"symbol":"BTCUSDT","period":"15","high":38279.5,"low":37400,"id":41897570,"close":37512,"startAt":1645443000,"open":38267.5},{"volume":3461.18,"symbol":"BTCUSDT","period":"15","high":37584.5,"low":37257,"id":41900585,"close":37549.5,"startAt":1645443900,"open":37512},{"volume":2783.364,"symbol":"BTCUSDT","period":"15","high":37742.5,"low":37437.5,"id":41903559,"close":37570,"startAt":1645444800,"open":37549.5},{"volume":3094.708,"symbol":"BTCUSDT","period":"15","high":37652,"low":37361,"id":41907243,"close":37587,"startAt":1645445700,"open":37570},{"volume":1401.53,"symbol":"BTCUSDT","period":"15","high":37638.5,"low":37477.5,"id":41910139,"close":37528.5,"startAt":1645446600,"open":37587},{"volume":1561.322,"symbol":"BTCUSDT","period":"15","high":37576.5,"low":37380,"id":41913162,"close":37503,"startAt":1645447500,"open":37528.5},{"volume":3124.155,"symbol":"BTCUSDT","period":"15","high":37631.5,"low":37162,"id":41916686,"close":37622.5,"startAt":1645448400,"open":37503},{"volume":2260.375,"symbol":"BTCUSDT","period":"15","high":37653,"low":37300,"id":41919188,"close":37381.5,"startAt":1645449300,"open":37622.5},{"volume":1155.645,"symbol":"BTCUSDT","period":"15","high":37529,"low":37320,"id":41922613,"close":37463.5,"startAt":1645450200,"open":37381.5},{"volume":1401.94,"symbol":"BTCUSDT","period":"15","high":37614.5,"low":37376,"id":41925129,"close":37528.5,"startAt":1645451100,"open":37463.5},{"volume":2017.033,"symbol":"BTCUSDT","period":"15","high":37790,"low":37461.5,"id":41928097,"close":37699,"startAt":1645452000,"open":37528.5},{"volume":9835.992,"symbol":"BTCUSDT","period":"15","high":38883,"low":37687,"id":41931329,"close":38591,"startAt":1645452900,"open":37699},{"volume":2791.45,"symbol":"BTCUSDT","period":"15","high":38639.5,"low":38410.5,"id":41934223,"close":38580,"startAt":1645453800,"open":38591}]
-{"volume":2791.45,"symbol":"BTCUSDT","period":"15","high":38639.5,"low":38410.5,"id":41934223,"close":38580,"startAt":1645453800,"open":38591}
-{"volume":9835.992,"symbol":"BTCUSDT","period":"15","high":38883,"low":37687,"id":41931329,"close":38591,"startAt":1645452900,"open":37699}
-{"volume":2017.033,"symbol":"BTCUSDT","period":"15","high":37790,"low":37461.5,"id":41928097,"close":37699,"startAt":1645452000,"open":37528.5}
-{"volume":1401.94,"symbol":"BTCUSDT","period":"15","high":37614.5,"low":37376,"id":41925129,"close":37528.5,"startAt":1645451100,"open":37463.5}
-{"volume":1155.645,"symbol":"BTCUSDT","period":"15","high":37529,"low":37320,"id":41922613,"close":37463.5,"startAt":1645450200,"open":37381.5}
-{"volume":2260.375,"symbol":"BTCUSDT","period":"15","high":37653,"low":37300,"id":41919188,"close":37381.5,"startAt":1645449300,"open":37622.5}
-{"volume":3124.155,"symbol":"BTCUSDT","period":"15","high":37631.5,"low":37162,"id":41916686,"close":37622.5,"startAt":1645448400,"open":37503}
-{"volume":1561.322,"symbol":"BTCUSDT","period":"15","high":37576.5,"low":37380,"id":41913162,"close":37503,"startAt":1645447500,"open":37528.5}
-{"volume":1401.53,"symbol":"BTCUSDT","period":"15","high":37638.5,"low":37477.5,"id":41910139,"close":37528.5,"startAt":1645446600,"open":37587}
-{"volume":3094.708,"symbol":"BTCUSDT","period":"15","high":37652,"low":37361,"id":41907243,"close":37587,"startAt":1645445700,"open":37570}
-{"volume":2783.364,"symbol":"BTCUSDT","period":"15","high":37742.5,"low":37437.5,"id":41903559,"close":37570,"startAt":1645444800,"open":37549.5}
-{"volume":3461.18,"symbol":"BTCUSDT","period":"15","high":37584.5,"low":37257,"id":41900585,"close":37549.5,"startAt":1645443900,"open":37512}
-{"volume":6608.31,"symbol":"BTCUSDT","period":"15","high":38279.5,"low":37400,"id":41897570,"close":37512,"startAt":1645443000,"open":38267.5}
-{"volume":1049.254,"symbol":"BTCUSDT","period":"15","high":38344,"low":38200,"id":41894654,"close":38267.5,"startAt":1645442100,"open":38275}
-{"volume":1434.022,"symbol":"BTCUSDT","period":"15","high":38405.5,"low":38244.5,"id":41891528,"close":38275,"startAt":1645441200,"open":38277.5}
-{"volume":1320.643,"symbol":"BTCUSDT","period":"15","high":38365.5,"low":38237,"id":41888610,"close":38277.5,"startAt":1645440300,"open":38324.5}
-{"volume":3231.489,"symbol":"BTCUSDT","period":"15","high":38560.5,"low":38193.5,"id":41885580,"close":38324.5,"startAt":1645439400,"open":38533.5}
-{"volume":2609.868,"symbol":"BTCUSDT","period":"15","high":38871.5,"low":38500,"id":41882678,"close":38533.5,"startAt":1645438500,"open":38866.5}
-{"volume":471.453,"symbol":"BTCUSDT","period":"15","high":38940,"low":38850,"id":41879458,"close":38866.5,"startAt":1645437600,"open":38888}
-{"volume":510.399,"symbol":"BTCUSDT","period":"15","high":39025.5,"low":38850,"id":41876507,"close":38888,"startAt":1645436700,"open":39012}
-{"volume":365.311,"symbol":"BTCUSDT","period":"15","high":39041,"low":38951.5,"id":41873493,"close":39012,"startAt":1645435800,"open":39012}
-{"volume":844.164,"symbol":"BTCUSDT","period":"15","high":39087,"low":38919.5,"id":41870577,"close":39012,"startAt":1645434900,"open":38969}
-{"volume":2100.066,"symbol":"BTCUSDT","period":"15","high":39049,"low":38860.5,"id":41867353,"close":38969,"startAt":1645434000,"open":39036}
-{"volume":572.731,"symbol":"BTCUSDT","period":"15","high":39123,"low":39005,"id":41864399,"close":39036,"startAt":1645433100,"open":39064}
-{"volume":737.143,"symbol":"BTCUSDT","period":"15","high":39216.5,"low":39050,"id":41861861,"close":39064,"startAt":1645432200,"open":39176}
-{"volume":388.988,"symbol":"BTCUSDT","period":"15","high":39295,"low":39164.5,"id":41858482,"close":39176,"startAt":1645431300,"open":39274}
-{"volume":530.724,"symbol":"BTCUSDT","period":"15","high":39336.5,"low":39241,"id":41855903,"close":39274,"startAt":1645430400,"open":39279}
-{"volume":605.051,"symbol":"BTCUSDT","period":"15","high":39279,"low":39164.5,"id":41852182,"close":39279,"startAt":1645429500,"open":39165}
-{"volume":334.551,"symbol":"BTCUSDT","period":"15","high":39221.5,"low":39109.5,"id":41849183,"close":39165,"startAt":1645428600,"open":39206.5}
-{"volume":524.787,"symbol":"BTCUSDT","period":"15","high":39206.5,"low":39038.5,"id":41846258,"close":39206.5,"startAt":1645427700,"open":39090}
-{"volume":703.249,"symbol":"BTCUSDT","period":"15","high":39184.5,"low":39050.5,"id":41843138,"close":39090,"startAt":1645426800,"open":39183.5}
-{"volume":178.258,"symbol":"BTCUSDT","period":"15","high":39199,"low":39163,"id":41840191,"close":39183.5,"startAt":1645425900,"open":39181.5}
-{"volume":223.67,"symbol":"BTCUSDT","period":"15","high":39224.5,"low":39181,"id":41837681,"close":39181.5,"startAt":1645425000,"open":39184}
-{"volume":506.813,"symbol":"BTCUSDT","period":"15","high":39189.5,"low":39125,"id":41834280,"close":39184,"startAt":1645424100,"open":39189}
-{"volume":630.344,"symbol":"BTCUSDT","period":"15","high":39228,"low":39127.5,"id":41830818,"close":39189,"startAt":1645423200,"open":39201}
-37661.4
-38467.845588235294
--806.4455882352922
+9
+1646120894
+[{"volume":1470.652,"symbol":"BTCUSDT","period":"15","high":43312,"low":42839,"id":44148744,"close":43094.5,"startAt":1646090100,"open":43243},{"volume":689.924,"symbol":"BTCUSDT","period":"15","high":43266.5,"low":42970,"id":44151940,"close":43150.5,"startAt":1646091000,"open":43094.5},{"volume":740.625,"symbol":"BTCUSDT","period":"15","high":43279.5,"low":43102,"id":44155029,"close":43150.5,"startAt":1646091900,"open":43150.5},{"volume":1914.979,"symbol":"BTCUSDT","period":"15","high":43640.5,"low":43150,"id":44158751,"close":43363,"startAt":1646092800,"open":43150.5},{"volume":784.472,"symbol":"BTCUSDT","period":"15","high":43389.5,"low":43172.5,"id":44162302,"close":43371,"startAt":1646093700,"open":43363},{"volume":977.609,"symbol":"BTCUSDT","period":"15","high":43555.5,"low":43307,"id":44165459,"close":43515,"startAt":1646094600,"open":43371},{"volume":1423.551,"symbol":"BTCUSDT","period":"15","high":43740,"low":43330.5,"id":44168581,"close":43539,"startAt":1646095500,"open":43515},{"volume":757.276,"symbol":"BTCUSDT","period":"15","high":43618,"low":43270.5,"id":44171835,"close":43270.5,"startAt":1646096400,"open":43539},{"volume":626.539,"symbol":"BTCUSDT","period":"15","high":43373.5,"low":43214.5,"id":44174983,"close":43255.5,"startAt":1646097300,"open":43270.5},{"volume":511.285,"symbol":"BTCUSDT","period":"15","high":43409.5,"low":43255.5,"id":44178176,"close":43382.5,"startAt":1646098200,"open":43255.5},{"volume":363.95,"symbol":"BTCUSDT","period":"15","high":43383,"low":43228.5,"id":44181276,"close":43235,"startAt":1646099100,"open":43382.5},{"volume":819.32,"symbol":"BTCUSDT","period":"15","high":43260,"low":43055.5,"id":44184577,"close":43082,"startAt":1646100000,"open":43235},{"volume":959.463,"symbol":"BTCUSDT","period":"15","high":43200,"low":42980,"id":44187791,"close":43046.5,"startAt":1646100900,"open":43082},{"volume":511.24,"symbol":"BTCUSDT","period":"15","high":43107.5,"low":42990,"id":44190948,"close":43091.5,"startAt":1646101800,"open":43046.5},{"volume":252.321,"symbol":"BTCUSDT","period":"15","high":43159.5,"low":43066.5,"id":44194071,"close":43159.5,"startAt":1646102700,"open":43091.5},{"volume":435.133,"symbol":"BTCUSDT","period":"15","high":43159.5,"low":42955,"id":44197387,"close":42955,"startAt":1646103600,"open":43159.5},{"volume":795.223,"symbol":"BTCUSDT","period":"15","high":43054,"low":42850,"id":44200599,"close":43038.5,"startAt":1646104500,"open":42955},{"volume":306.48,"symbol":"BTCUSDT","period":"15","high":43078,"low":42980,"id":44203747,"close":43050,"startAt":1646105400,"open":43038.5},{"volume":414.153,"symbol":"BTCUSDT","period":"15","high":43155,"low":43049.5,"id":44206890,"close":43140,"startAt":1646106300,"open":43050},{"volume":556.383,"symbol":"BTCUSDT","period":"15","high":43271.5,"low":43081.5,"id":44210262,"close":43271.5,"startAt":1646107200,"open":43140},{"volume":506.245,"symbol":"BTCUSDT","period":"15","high":43271.5,"low":43122.5,"id":44213506,"close":43224,"startAt":1646108100,"open":43271.5},{"volume":263.433,"symbol":"BTCUSDT","period":"15","high":43275,"low":43184.5,"id":44216676,"close":43229.5,"startAt":1646109000,"open":43224},{"volume":623.305,"symbol":"BTCUSDT","period":"15","high":43380.5,"low":43229.5,"id":44219799,"close":43338.5,"startAt":1646109900,"open":43229.5},{"volume":433.452,"symbol":"BTCUSDT","period":"15","high":43397,"low":43233.5,"id":44223028,"close":43274,"startAt":1646110800,"open":43338.5},{"volume":423.573,"symbol":"BTCUSDT","period":"15","high":43274.5,"low":43164,"id":44226193,"close":43220.5,"startAt":1646111700,"open":43274},{"volume":233.712,"symbol":"BTCUSDT","period":"15","high":43221,"low":43151,"id":44229345,"close":43151,"startAt":1646112600,"open":43220.5},{"volume":189.878,"symbol":"BTCUSDT","period":"15","high":43237.5,"low":43132.5,"id":44232467,"close":43190.5,"startAt":1646113500,"open":43151},{"volume":641.289,"symbol":"BTCUSDT","period":"15","high":43190.5,"low":43055,"id":44235899,"close":43151.5,"startAt":1646114400,"open":43190.5},{"volume":598.201,"symbol":"BTCUSDT","period":"15","high":43334.5,"low":43151.5,"id":44239239,"close":43320.5,"startAt":1646115300,"open":43151.5},{"volume":848.444,"symbol":"BTCUSDT","period":"15","high":43458.5,"low":43250,"id":44242365,"close":43254.5,"startAt":1646116200,"open":43320.5},{"volume":816.373,"symbol":"BTCUSDT","period":"15","high":43492,"low":43254.5,"id":44245521,"close":43418.5,"startAt":1646117100,"open":43254.5},{"volume":880.359,"symbol":"BTCUSDT","period":"15","high":43547,"low":43415,"id":44248737,"close":43507,"startAt":1646118000,"open":43418.5},{"volume":518.47,"symbol":"BTCUSDT","period":"15","high":43507,"low":43336.5,"id":44251924,"close":43391.5,"startAt":1646118900,"open":43507},{"volume":355.618,"symbol":"BTCUSDT","period":"15","high":43417,"low":43282,"id":44255089,"close":43282.5,"startAt":1646119800,"open":43391.5},{"volume":131.338,"symbol":"BTCUSDT","period":"15","high":43358,"low":43282,"id":44258195,"close":43347.5,"startAt":1646120700,"open":43282.5}]
+{"volume":131.338,"symbol":"BTCUSDT","period":"15","high":43358,"low":43282,"id":44258195,"close":43347.5,"startAt":1646120700,"open":43282.5}
+{"volume":355.618,"symbol":"BTCUSDT","period":"15","high":43417,"low":43282,"id":44255089,"close":43282.5,"startAt":1646119800,"open":43391.5}
+{"volume":518.47,"symbol":"BTCUSDT","period":"15","high":43507,"low":43336.5,"id":44251924,"close":43391.5,"startAt":1646118900,"open":43507}
+{"volume":880.359,"symbol":"BTCUSDT","period":"15","high":43547,"low":43415,"id":44248737,"close":43507,"startAt":1646118000,"open":43418.5}
+{"volume":816.373,"symbol":"BTCUSDT","period":"15","high":43492,"low":43254.5,"id":44245521,"close":43418.5,"startAt":1646117100,"open":43254.5}
+{"volume":848.444,"symbol":"BTCUSDT","period":"15","high":43458.5,"low":43250,"id":44242365,"close":43254.5,"startAt":1646116200,"open":43320.5}
+{"volume":598.201,"symbol":"BTCUSDT","period":"15","high":43334.5,"low":43151.5,"id":44239239,"close":43320.5,"startAt":1646115300,"open":43151.5}
+{"volume":641.289,"symbol":"BTCUSDT","period":"15","high":43190.5,"low":43055,"id":44235899,"close":43151.5,"startAt":1646114400,"open":43190.5}
+{"volume":189.878,"symbol":"BTCUSDT","period":"15","high":43237.5,"low":43132.5,"id":44232467,"close":43190.5,"startAt":1646113500,"open":43151}
+{"volume":233.712,"symbol":"BTCUSDT","period":"15","high":43221,"low":43151,"id":44229345,"close":43151,"startAt":1646112600,"open":43220.5}
+{"volume":423.573,"symbol":"BTCUSDT","period":"15","high":43274.5,"low":43164,"id":44226193,"close":43220.5,"startAt":1646111700,"open":43274}
+{"volume":433.452,"symbol":"BTCUSDT","period":"15","high":43397,"low":43233.5,"id":44223028,"close":43274,"startAt":1646110800,"open":43338.5}
+{"volume":623.305,"symbol":"BTCUSDT","period":"15","high":43380.5,"low":43229.5,"id":44219799,"close":43338.5,"startAt":1646109900,"open":43229.5}
+{"volume":263.433,"symbol":"BTCUSDT","period":"15","high":43275,"low":43184.5,"id":44216676,"close":43229.5,"startAt":1646109000,"open":43224}
+{"volume":506.245,"symbol":"BTCUSDT","period":"15","high":43271.5,"low":43122.5,"id":44213506,"close":43224,"startAt":1646108100,"open":43271.5}
+{"volume":556.383,"symbol":"BTCUSDT","period":"15","high":43271.5,"low":43081.5,"id":44210262,"close":43271.5,"startAt":1646107200,"open":43140}
+{"volume":414.153,"symbol":"BTCUSDT","period":"15","high":43155,"low":43049.5,"id":44206890,"close":43140,"startAt":1646106300,"open":43050}
+{"volume":306.48,"symbol":"BTCUSDT","period":"15","high":43078,"low":42980,"id":44203747,"close":43050,"startAt":1646105400,"open":43038.5}
+{"volume":795.223,"symbol":"BTCUSDT","period":"15","high":43054,"low":42850,"id":44200599,"close":43038.5,"startAt":1646104500,"open":42955}
+{"volume":435.133,"symbol":"BTCUSDT","period":"15","high":43159.5,"low":42955,"id":44197387,"close":42955,"startAt":1646103600,"open":43159.5}
+{"volume":252.321,"symbol":"BTCUSDT","period":"15","high":43159.5,"low":43066.5,"id":44194071,"close":43159.5,"startAt":1646102700,"open":43091.5}
+{"volume":511.24,"symbol":"BTCUSDT","period":"15","high":43107.5,"low":42990,"id":44190948,"close":43091.5,"startAt":1646101800,"open":43046.5}
+{"volume":959.463,"symbol":"BTCUSDT","period":"15","high":43200,"low":42980,"id":44187791,"close":43046.5,"startAt":1646100900,"open":43082}
+{"volume":819.32,"symbol":"BTCUSDT","period":"15","high":43260,"low":43055.5,"id":44184577,"close":43082,"startAt":1646100000,"open":43235}
+{"volume":363.95,"symbol":"BTCUSDT","period":"15","high":43383,"low":43228.5,"id":44181276,"close":43235,"startAt":1646099100,"open":43382.5}
+{"volume":511.285,"symbol":"BTCUSDT","period":"15","high":43409.5,"low":43255.5,"id":44178176,"close":43382.5,"startAt":1646098200,"open":43255.5}
+{"volume":626.539,"symbol":"BTCUSDT","period":"15","high":43373.5,"low":43214.5,"id":44174983,"close":43255.5,"startAt":1646097300,"open":43270.5}
+{"volume":757.276,"symbol":"BTCUSDT","period":"15","high":43618,"low":43270.5,"id":44171835,"close":43270.5,"startAt":1646096400,"open":43539}
+{"volume":1423.551,"symbol":"BTCUSDT","period":"15","high":43740,"low":43330.5,"id":44168581,"close":43539,"startAt":1646095500,"open":43515}
+{"volume":977.609,"symbol":"BTCUSDT","period":"15","high":43555.5,"low":43307,"id":44165459,"close":43515,"startAt":1646094600,"open":43371}
+{"volume":784.472,"symbol":"BTCUSDT","period":"15","high":43389.5,"low":43172.5,"id":44162302,"close":43371,"startAt":1646093700,"open":43363}
+{"volume":1914.979,"symbol":"BTCUSDT","period":"15","high":43640.5,"low":43150,"id":44158751,"close":43363,"startAt":1646092800,"open":43150.5}
+{"volume":740.625,"symbol":"BTCUSDT","period":"15","high":43279.5,"low":43102,"id":44155029,"close":43150.5,"startAt":1646091900,"open":43150.5}
+{"volume":689.924,"symbol":"BTCUSDT","period":"15","high":43266.5,"low":42970,"id":44151940,"close":43150.5,"startAt":1646091000,"open":43094.5}
+{"volume":1470.652,"symbol":"BTCUSDT","period":"15","high":43312,"low":42839,"id":44148744,"close":43094.5,"startAt":1646090100,"open":43243}
+43395.95
+43238.617647058825
+157.33235294117185
 ]]></system-out>
-  <system-err><![CDATA[Starting ChromeDriver 98.0.4758.102 (273bf7ac8c909cde36982d27f66f3c70846a3718-refs/branch-heads/4758@{#1151}) on port 44495
+  <system-err><![CDATA[Starting ChromeDriver 98.0.4758.102 (273bf7ac8c909cde36982d27f66f3c70846a3718-refs/branch-heads/4758@{#1151}) on port 3294
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-февр. 21, 2022 5:40:40 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+мар. 01, 2022 10:48:13 AM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 ]]></system-err>
 </testsuite>

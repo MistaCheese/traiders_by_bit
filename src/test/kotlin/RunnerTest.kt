@@ -49,13 +49,18 @@ class RunnerTest {
             driver.findElement(By.xpath("/html[1]/body[1]/div[1]/div[1]/div[1]/div[2]/div[2]/section[1]/div[2]/div[1]/div[1]/div[2]/div[2]/div[3]"))
 
 
-        val fr = (exm.getAttribute("textContent").toString()).replace("\\s", "").toDouble()
+        val fr = (exm.getAttribute("textContent")
+            .toString())
+            .filter { !it.isWhitespace() }
+            .trim()
+
+
 
         val or = String.format("%.4f", getAll().get()).replace(",", ".") // Формат с 4мя знаками после запятой
 
         val users = File("users_id.txt") // Список ID пользователей с телеги
         val logStat = File(LocalDate.now().toString() + " logStat.txt") // Файл с логами
-        if (or.toDouble() != fr) {
+        if (or.toDouble() != fr.toDouble()) {
             logStat.appendText(
                 (LocalDateTime.now()
                     .toString() + " Значения не совпадают: $fr - c сайта, $or - с byBit ===========================\n")
